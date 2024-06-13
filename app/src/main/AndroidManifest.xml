@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project1"
+        tools:targetApi="31">
+        <activity
+            android:name=".Tower"
+            android:exported="false" />
+        <activity
+            android:name=".Baumana"
+            android:exported="false" />
+        <activity
+            android:name=".Dvorec"
+            android:exported="false" />
+        <activity
+            android:name=".Kuls"
+            android:exported="false" />
+        <activity
+            android:name=".Kreml"
+            android:exported="false" />
+        <activity
+            android:name=".Toratau"
+            android:exported="false" />
+        <activity
+            android:name=".Monument"
+            android:exported="false" />
+        <activity
+            android:name=".Mechet"
+            android:exported="false" />
+        <activity
+            android:name=".Fontan"
+            android:exported="false" />
+        <activity
+            android:name=".Salavat"
+            android:exported="false" />
+        <activity
+            android:name=".Dvorc"
+            android:exported="false" />
+        <activity
+            android:name=".Spas"
+            android:exported="false" />
+        <activity
+            android:name=".Isaak"
+            android:exported="false" />
+        <activity
+            android:name=".Ermitaj"
+            android:exported="false" />
+        <activity
+            android:name=".Petergof"
+            android:exported="false" />
+        <activity
+            android:name=".MCity"
+            android:exported="false" />
+        <activity
+            android:name=".Metro"
+            android:exported="false" />
+        <activity
+            android:name=".Hram"
+            android:exported="false" />
+        <activity
+            android:name=".MGU"
+            android:exported="false" />
+        <activity
+            android:name=".RedSquare"
+            android:exported="false" />
+        <activity
+            android:name=".KazanPlace"
+            android:exported="false" />
+        <activity
+            android:name=".UfaPlace"
+            android:exported="false" />
+        <activity
+            android:name=".spb_place"
+            android:exported="false" />
+        <activity
+            android:name=".MoscowPlace"
+            android:exported="false" />
+        <activity
+            android:name=".Lille"
+            android:exported="false" />
+        <activity
+            android:name=".Marseille"
+            android:exported="false" />
+        <activity
+            android:name=".Nice"
+            android:exported="false" />
+        <activity
+            android:name=".Paris"
+            android:exported="false" />
+        <activity
+            android:name=".FranceCities"
+            android:exported="false" />
+        <activity
+            android:name=".Valencia"
+            android:exported="false" />
+        <activity
+            android:name=".Sevilla"
+            android:exported="false" />
+        <activity
+            android:name=".Barcelona"
+            android:exported="false" />
+        <activity
+            android:name=".Madrid"
+            android:exported="false" />
+        <activity
+            android:name=".Madric"
+            android:exported="false" />
+        <activity
+            android:name=".SpainCities"
+            android:exported="false" />
+        <activity
+            android:name=".Spain"
+            android:exported="false" />
+        <activity
+            android:name=".Cologne"
+            android:exported="false" />
+        <activity
+            android:name=".Munich"
+            android:exported="false" />
+        <activity
+            android:name=".Hamburg"
+            android:exported="false" />
+        <activity
+            android:name=".Berlin"
+            android:exported="false" />
+        <activity
+            android:name=".GermanyCities"
+            android:exported="false" />
+        <activity
+            android:name=".Kazan"
+            android:exported="false" />
+        <activity
+            android:name=".Ufa"
+            android:exported="false" />
+        <activity
+            android:name=".StPetersburg"
+            android:exported="false" />
+        <activity
+            android:name=".Moscow"
+            android:exported="false" />
+        <activity
+            android:name=".RussiaCities"
+            android:exported="false"
+            android:theme="@style/Theme.Project1" />
+        <activity
+            android:name=".CountriesPage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
